@@ -1,0 +1,33 @@
+<html>
+
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <title>Lo-Fi Form</title>
+        <body style = "margin:0;">
+            <div class = "bg-image">
+                <center><form action = "https://en.wikipedia.org/wiki/POST_(HTTP)" class = "container" method = "post">
+                    <fieldset>
+                        <legend><h2>Request</h2></legend>
+                        <small><p><label for = "name_first">First Name</label><br></small>
+                        <input type = "text" placeholder = "Enter First Name" name = "name_first" required>
+                        <small><p><label for = "name_last">Last Name</label><br></small>
+                        <input type = "text" placeholder = "Enter Last Name" name = "name_last" required>
+                        <p><small>Point the reason of sending request:</small><br>
+                            <select name = "book_1" size = "1" class = "select">
+                                <option value = "reason_1">This form doesn't work correctly</option>
+                                <option value = "reason_2">Need some changes</option>
+                                <option value = "reason_3" selected = "selected">Too many bugs</option>
+                                <option value = "reason_4">Don't like the form design</option>
+                                <option value = "reason_5">Others</option>
+                            </select>
+                        <p><small>Message:</small><br>
+                        <textarea name = "description" cols = "40" rows = "10"></textarea>
+                        <p><button class = "button_1">Send this request</button></p>
+                    </fieldset>
+                </form></center>
+            </div>
+        </body>
+
+    </head>
+
+</html>
